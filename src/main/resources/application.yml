@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: ${SPRING_DATASOURCE_USERNAME:user}
+    password: ${SPRING_DATASOURCE_PASSWORD:password}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/scheduling_bot}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+telegram:
+  bot:
+    token: ${TELEGRAM_BOT_TOKEN}
